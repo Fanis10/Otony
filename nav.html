@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Навигация</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="content">
+			<section class="navigation">
+				<div class="container">
+					<div class="navigation__inner">
+						<ul class="navigation__list">
+							<li><a href="index.html">Главная</a></li>
+							<li>
+								<button class="navigation__btn btn btn-blue" data-modal="contactModal">
+									<span>Создать проект</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-blue" data-modal="contactModal2">
+									<span>Посмотреть проект</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-blue" data-modal="contactModal3">
+									<span>СПАСИБО</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<div class="modal modal-form" id="contactModal">
+		<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+			<img src="img/close.svg" alt="">
+		</button>
+		<div class="modal__dialog">
+			<div class="modal__content">
+				<div class="modal-form__top">
+					<div class="modal-form__title">Создать проект</div>
+					<div class="modal-form__subtitle">Оставьте заявку и наш специалист проконсультирует Вас по вашим вопросам!
+					</div>
+				</div>
+				<form class="form">
+					<div class="form-group">
+						<input type="text" placeholder="Как вас зовут?">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Контактный номер телефона">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="WhatsApp или Telegram">
+					</div>
+					<div class="form-group form-group--big">
+						<textarea placeholder="Опишите Вашу задачу"></textarea>
+					</div>
+					<div class="form-info">
+						<span>Нажимая на кнопку “Отправить” вы соглашаетесь на <a href="">обработку персональных данных</a></span>
+					</div>
+					<button class="form-btn btn btn-blue">
+						<span>Создать проект</span>
+						<i>
+							<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.16 -7.15256e-07L14.16 6L8.16 12H5.82L10.98 6.84H0.1V5.16H10.98L5.82 -7.15256e-07H8.16Z"
+									fill="white" />
+							</svg>
+						</i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-project" id="contactModal2">
+		<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+			<img src="img/close.svg" alt="">
+		</button>
+		<div class="modal__dialog">
+			<div class="modal__content">
+				<div class="modal-project__title">PAYAWAY</div>
+				<div class="modal-project__text">
+					<p>
+						Мы запустили новый сайт для "Универсального инструмента" - решения, которое позволяет интегрировать прием
+						криптовалютных
+						платежей прямо на ваш сайт и автоматически выплачивать полученные средства. <br>
+						В проект вошли все этапы: от разработки дизайна и верстки сайта до его полного запуска.
+					</p>
+					<p>
+						Над проектом работали 3 специалиста, и на разработку ушло около 100 часов. Теперь принимать криптовалюту
+						стало проще и
+						удобнее!
+					</p>
+				</div>
+				<div class="modal-project__items">
+					<div class="modal-project__item">
+						<div class="modal-project__item-number">1</div>
+						<div class="modal-project__item-text">месяц разработки</div>
+					</div>
+					<div class="modal-project__item">
+						<div class="modal-project__item-number">3</div>
+						<div class="modal-project__item-text">часов разработки</div>
+					</div>
+					<div class="modal-project__item">
+						<div class="modal-project__item-number">100</div>
+						<div class="modal-project__item-text">часов разработки</div>
+					</div>
+				</div>
+				<div class="modal-project__img">
+					<img src="img/modal-img.png" alt="">
+				</div>
+				<a href="" class="modal-project__btn btn btn-blue">
+					<span>Посмотреть проект</span>
+					<i>
+						<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.16 -7.15256e-07L14.16 6L8.16 12H5.82L10.98 6.84H0.1V5.16H10.98L5.82 -7.15256e-07H8.16Z"
+								fill="white" />
+						</svg>
+					</i>
+				</a>
+				<div class="modal-form__top">
+					<div class="modal-form__title">Создать проект</div>
+					<div class="modal-form__subtitle">Оставьте заявку и наш специалист проконсультирует Вас по вашим вопросам!
+					</div>
+				</div>
+				<form class="form">
+					<div class="form-group">
+						<input type="text" placeholder="Как вас зовут?">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Контактный номер телефона">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="WhatsApp или Telegram">
+					</div>
+					<div class="form-group form-group--big">
+						<textarea placeholder="Опишите Вашу задачу"></textarea>
+					</div>
+					<div class="form-info">
+						<span>Нажимая на кнопку “Отправить” вы соглашаетесь на <a href="">обработку персональных данных</a></span>
+					</div>
+					<button class="form-btn btn btn-blue">
+						<span>Создать проект</span>
+						<i>
+							<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.16 -7.15256e-07L14.16 6L8.16 12H5.82L10.98 6.84H0.1V5.16H10.98L5.82 -7.15256e-07H8.16Z"
+									fill="white" />
+							</svg>
+						</i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-thanks" id="contactModal3">
+		<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+			<img src="img/close.svg" alt="">
+		</button>
+		<div class="modal__dialog">
+			<div class="modal__content">
+				<div class="modal-thanks__animation">
+					<dotlottie-player src="https://lottie.host/7f707ef5-a6ff-4469-b69d-7b65a6415eda/RvnpQckDLn.lottie"
+						background="transparent" speed="1" loop autoplay></dotlottie-player>
+				</div>
+				<div class="modal-thanks__title">СПАСИБО</div>
+				<div class="modal-thanks__subtitle">Наш специалист свяжется с Вами в ближайшее время</div>
+				<a href="index.html" class="modal-thanks__btn btn btn-blue">
+					<span>Вернуться на главную</span>
+					<i>
+						<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.16 -7.15256e-07L14.16 6L8.16 12H5.82L10.98 6.84H0.1V5.16H10.98L5.82 -7.15256e-07H8.16Z"
+								fill="white" />
+						</svg>
+					</i>
+				</a>
+				<a href="index.html" class="modal-thanks__logo">
+					<img src="img/logo2.svg" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+</body>
+
+</html>
+
+<style>
+	.navigation {
+		padding: 50px 0;
+	}
+
+	.navigation__list {
+		display: grid;
+		grid-template-columns: 100%;
+		gap: 24px;
+	}
+
+	.navigation__list li a {
+		font-size: 24px;
+		line-height: 100%;
+	}
+
+	.navigation__list li a:hover {
+		color: blue;
+	}
+
+	.navigation__btn {
+		height: 50px;
+		padding: 5px 45px;
+	}
+</style>
